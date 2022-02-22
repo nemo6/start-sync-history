@@ -182,7 +182,7 @@ function init(){
 	if( !fs.readdirSync(__dirname).includes("History") ){
 
 		fs.copyFileSync("C:\\Users\\Nemo\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-		"C:\\Users\\Miguel\\Desktop\\test_hs\\History")
+		"C:\\Users\\Nemo\\Desktop\\test_hs\\History")
 
 	}
 
