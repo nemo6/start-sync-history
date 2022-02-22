@@ -53,7 +53,7 @@ const hexDecode = convert('hex', 'utf8')
 
 ;(async () => {
 
-	if( !fs.readdirSync("C:\\test\\History").includes("History") ){
+	if( !fs.readdirSync("C:\\test").includes("History") ){
 
 		fs.copyFileSync("C:\\Users\\Nemo\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
 		"C:\\test\\History")
