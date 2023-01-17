@@ -13,7 +13,7 @@ function btime(x){
 }
 
 list_pathx = [
-"C:\\Users\\Nemo\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+"C:\\Users\\USERNAME\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
 ]
 
 async function search(x){
@@ -55,7 +55,7 @@ const hexDecode = convert('hex', 'utf8')
 
 	if( !fs.readdirSync("C:\\test").includes("History") ){
 
-		fs.copyFileSync("C:\\Users\\Nemo\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+		fs.copyFileSync("C:\\Users\\USERNAME\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
 		"C:\\test\\History")
 
 	}
@@ -169,11 +169,11 @@ function init(){
 		return JSON.stringify(this,null,2)
 	}
 	
-	require('C:/Users/Nemo/AppData/Roaming/npm/node_modules/dayjs/locale/fr')
+	require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/dayjs/locale/fr')
 	
 	dayjs.locale('fr')
 	
-	return require('C:/Users/Nemo/AppData/Roaming/npm/node_modules/lodash')
+	return require('C:/Users/USERNAME/AppData/Roaming/npm/node_modules/lodash')
   
 }
 
@@ -181,8 +181,8 @@ function init(){
 
 	if( !fs.readdirSync(__dirname).includes("History") ){
 
-		fs.copyFileSync("C:\\Users\\Nemo\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
-		"C:\\Users\\Nemo\\Desktop\\test_hs\\History")
+		fs.copyFileSync("C:\\Users\\USERNAME\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\History",
+		"C:\\Users\\USERNAME\\Desktop\\test_hs\\History")
 
 	}
 
