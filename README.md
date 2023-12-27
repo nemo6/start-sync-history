@@ -1,2 +1,2 @@
-# sync_history
+# sync-history
 test
